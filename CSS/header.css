@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+}
+
+a{
+ color:#000;
+ text-decoration: none;
+ text-decoration: #000;
+ 
+}
+header{
+    background-color:#DDA0DD    ;
+    height: 70px;
+}  
+  

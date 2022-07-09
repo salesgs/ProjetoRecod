@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+ 
+}
+
+
+a{
+ color:#000;
+ text-decoration: none;
+ text-decoration: #000;
+}
+
+main{
+    background-color:#F0F8FF;
+}
+.flex-center-ft{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.container{
+    width: 900px;
+    height: 500px;
+}
+
+.flex-center{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.header-navbar ul li{
+    margin: 0 10px;
+    margin-top: 30px;   
+}
+
+.header-navbar a:hover {
+    color: aquamarine;
+}
+
+/* foto do meio */
+.container-aa{
+    width: 350px;
+    height: 350px;
+    margin-top: 180px;
+    margin-left: 40px;
+    display: inline-block;
+}
+
+.container-bb{
+    width: 200px;
+    height: 400px;
+    margin-top: 70px;
+    margin-left: 200px;
+    display: inline-block;
+}
+
+.gallery-card{
+    align-items: center;
+    justify-content: center;
+    margin-bottom:20px; 
+}
+.gallery-img{
+    background-size: 150%; 
+}
+#card-01{
+background-image: url(../images/kombi.jpg);
+}
+
+#card-02{
+background-image: url(../images/turist.jpg);
+}
+
+   
+/* container do texto */
+
+.container-ba{
+    width: 250px;
+    height: 20px;
+    display: inline-block;
+    margin-left: 40px;
+}
+

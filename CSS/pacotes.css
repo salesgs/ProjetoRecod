@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+}
+
+a{
+ color:#000;
+ text-decoration: none;
+ text-decoration: #000;
+}
+main{
+    background-color:#F0F8FF;
+}
+
+button{
+    border-color: red;
+    background-color: aqua;
+}
+
+.container{
+    width: 900px;
+    height: 500px;
+}
+
+.flex-center{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.header-navbar ul li{
+    margin: 0 10px;
+    margin-top: 30px;   
+}
+
+.header-navbar a:hover {
+    color: aquamarine;
+}
+
+
+.container-ff{
+    display: inline-block;
+    border-radius: 20px;
+    width: 250px;
+    height: 350px;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+.box-7{
+     width: 250px;
+    height: 200px;
+    margin-top: 350px;
+    
+}
+
+
+.container-gg{
+    display: inline-block;
+    border-radius: 20px;
+    width: 250px;
+    height: 350px;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+.box-8{
+    width: 250px;
+    height: 200px;
+    margin-top: 350px;
+    
+}
+
+.container-hh{
+    display: inline-block;
+    border-radius: 20px;
+    width: 250px;
+    height: 350px;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+.box-9{
+    width: 250px;
+    height: 200px;
+    margin-top: 350px;
+ 
+}
+.gallery-card{
+    align-items: center;
+    justify-content: center;
+    margin-bottom:20px; 
+} 
+
+.gallery-img{
+    background-size: 100%;   /*altero o tamanho da imagem*/
+    background-blend-mode: multiply;
+    transition: .6s;
+} 
+
+
+.gallery-img:hover{    /*coloco aproximação na imagem*/
+    background-size: 120%;
+	background-color: white;
+} 
+
+
+#card-7{
+    background-image: url(../images/fo.jpg);
+}
+
+#card-8{
+    background-image: url(../images/mex.jpg);
+}
+
+#card-9{
+    background-image: url(../images/arg.jpg);
+}
+
+#form{
+    margin-top: 200px;
+    margin-left: 200px;
+    background-color: aqua;
+    width: 400px;
+}
+form{
+    padding-left: 20px;
+}
